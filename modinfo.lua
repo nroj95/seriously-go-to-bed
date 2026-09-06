@@ -23,6 +23,9 @@ reign_of_giants_compatible = false
 client_only_mod = false
 all_clients_require_mod = true
 
+icon_atlas = "modicon.xml"
+icon = "modicon.tex"
+
 server_filter_tags = {
     "sleep",
     "tent",
