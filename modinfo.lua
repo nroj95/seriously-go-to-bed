@@ -7,13 +7,12 @@ current development features:
 - siesta-level hunger drain across sleeping equipment
 - configurable straw roll and fur roll durability
 - infinite tent, siesta lean-to, and camper's tent uses
+- shared tent and siesta sleeping with configurable capacity
 - walter trades his sleep hunger bonus for double sleep sanity recovery
-
-shared tent and siesta sleeping is planned for the next development phase.
 ]]
 
 author = "nroj"
-version = "0.1.0-dev"
+version = "0.2.0-dev"
 
 api_version = 10
 dst_compatible = true
@@ -31,7 +30,30 @@ server_filter_tags = {
     "tent",
 }
 
+local capacity_options = {
+    { description = "1", data = 1 },
+    { description = "2", data = 2 },
+    { description = "3", data = 3 },
+    { description = "4", data = 4 },
+    { description = "10", data = 10 },
+    { description = "Unlimited", data = 0 },
+}
+
 configuration_options = {
+    {
+        name = "tent_capacity",
+        label = "Tent capacity",
+        hover = "Maximum players who can sleep in one Tent at a time.",
+        options = capacity_options,
+        default = 3,
+    },
+    {
+        name = "siesta_capacity",
+        label = "Siesta Lean-to capacity",
+        hover = "Maximum players who can sleep in one Siesta Lean-to at a time.",
+        options = capacity_options,
+        default = 3,
+    },
     {
         name = "straw_roll_uses",
         label = "Straw Roll uses",
