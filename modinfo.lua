@@ -1,14 +1,20 @@
 name = "seriously, go to bed"
 description = [[
-rebalances sleeping into a cheaper, gentler way to pass the night.
+sleep should be a normal part of camp life, not an expensive emergency heal.
+
+all supported sleeping gear uses the vanilla siesta lean-to hunger drain, about one-third of the normal sleep hunger rate. recovery is deliberately toned down: straw gives no health, fur about one-third, and tents and siesta about two-thirds. sanity recovery is generally around half of vanilla.
+
+the idea is simple: sleeping should be worth doing to pass the night, while food, healing, and sanity management still matter.
+
+proper tents no longer wear out from sleeping, while portable rolls keep configurable durability. full-sized tents can also be shared.
 
 features:
-- reduced sleep health and sanity recovery
 - siesta-level hunger drain across sleeping equipment
+- deliberately reduced health and sanity recovery
 - configurable straw roll and fur roll durability
 - infinite tent, siesta lean-to, and camper's tent uses
-- shared tent and siesta sleeping with configurable capacity
-- walter trades his sleep hunger bonus for double sleep sanity recovery
+- shared tent and siesta sleeping
+- walter gets double sleep sanity recovery
 ]]
 
 author = "nroj"
