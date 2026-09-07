@@ -2,7 +2,7 @@ name = "seriously, go to bed"
 description = [[
 rebalances sleeping into a cheaper, gentler way to pass the night.
 
-current development features:
+features:
 - reduced sleep health and sanity recovery
 - siesta-level hunger drain across sleeping equipment
 - configurable straw roll and fur roll durability
