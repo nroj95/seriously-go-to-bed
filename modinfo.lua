@@ -1,4 +1,4 @@
-name = "chill sleep (dev)"
+name = "seriously, go to bed"
 description = [[
 rebalances sleeping into a cheaper, gentler way to pass the night.
 
@@ -12,7 +12,7 @@ current development features:
 ]]
 
 author = "nroj"
-version = "0.2.0-dev"
+version = "0.2.0"
 
 api_version = 10
 dst_compatible = true
