@@ -1,4 +1,4 @@
-name = "seriously, go to bed"
+name = "seriously, go to bed (dev)"
 description = [[
 sleep should be a normal part of camp life, not an expensive emergency heal.
 
@@ -10,7 +10,7 @@ tent, siesta, and camper's tent have infinite uses. rolls keep configurable dura
 ]]
 
 author = "nroj95"
-version = "0.2.0"
+version = "0.2.0-dev"
 
 api_version = 10
 dst_compatible = true
