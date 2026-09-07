@@ -9,7 +9,7 @@ this keeps sleep useful for passing time without replacing food, healing, or san
 tent, siesta, and camper's tent have infinite uses. rolls keep configurable durability, tent and siesta can be shared, and walter trades his sleep hunger bonus for 2x sleep sanity recovery.
 ]]
 
-author = "nroj"
+author = "nroj95"
 version = "0.2.0"
 
 api_version = 10
