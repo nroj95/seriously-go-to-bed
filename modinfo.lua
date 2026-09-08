@@ -6,7 +6,7 @@ all sleep gear uses siesta-level hunger drain with reduced recovery. tent, siest
 ]]
 
 author = "nroj95"
-version = "0.2.0-dev"
+version = "0.2.1-dev"
 
 api_version = 10
 dst_compatible = true
