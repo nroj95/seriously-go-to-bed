@@ -1,12 +1,14 @@
 name = "seriously, go to bed (dev)"
 description = [[
-makes sleeping a cozier, more practical part of camp life.
+sleep should be a normal part of camp life, not an expensive emergency heal.
 
-all sleep gear uses siesta-level hunger drain with reduced recovery. tent, siesta, and camper's tent have infinite uses. rolls keep configurable durability, and tent and siesta can be shared.
+all sleep gear uses the vanilla siesta hunger drain: -0.33/s. health recovery is 1/3 of vanilla except straw, which heals nothing; sanity is about 1/2, except siesta at 2/3.
+
+tent, siesta, and camper's tent have infinite uses. rolls keep configurable durability, tent and siesta can be shared, and walter trades his sleep hunger bonus for 2x sleep sanity recovery.
 ]]
 
 author = "nroj95"
-version = "0.2.1-dev"
+version = "0.2.2-dev"
 
 api_version = 10
 dst_compatible = true
